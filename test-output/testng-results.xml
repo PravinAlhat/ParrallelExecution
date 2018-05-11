@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="33180" started-at="2018-05-11T06:32:22Z" finished-at="2018-05-11T06:32:55Z">
+    <groups>
+    </groups>
+    <test name="testParallel" duration-ms="33180" started-at="2018-05-11T06:32:22Z" finished-at="2018-05-11T06:32:55Z">
+      <class name="parallelClasses.Firefox">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:parallelClasses.Firefox@5fe5c6f]" name="beforeClass" is-config="true" duration-ms="10646" started-at="2018-05-11T01:32:22Z" finished-at="2018-05-11T01:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:parallelClasses.Firefox@5fe5c6f]" name="f" duration-ms="14599" started-at="2018-05-11T01:32:33Z" finished-at="2018-05-11T01:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:parallelClasses.Firefox@5fe5c6f]" name="afterClass" is-config="true" duration-ms="7923" started-at="2018-05-11T01:32:47Z" finished-at="2018-05-11T01:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- parallelClasses.Firefox -->
+      <class name="parallelClasses.InternetExplorer">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:parallelClasses.InternetExplorer@224aed64]" name="beforeClass" is-config="true" duration-ms="3328" started-at="2018-05-11T01:32:22Z" finished-at="2018-05-11T01:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:parallelClasses.InternetExplorer@224aed64]" name="f" duration-ms="17470" started-at="2018-05-11T01:32:25Z" finished-at="2018-05-11T01:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:parallelClasses.InternetExplorer@224aed64]" name="afterClass" is-config="true" duration-ms="548" started-at="2018-05-11T01:32:43Z" finished-at="2018-05-11T01:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- parallelClasses.InternetExplorer -->
+      <class name="parallelClasses.Chrome">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:parallelClasses.Chrome@387c703b]" name="beforeClass" is-config="true" duration-ms="4938" started-at="2018-05-11T01:32:22Z" finished-at="2018-05-11T01:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:parallelClasses.Chrome@387c703b]" name="f" duration-ms="15130" started-at="2018-05-11T01:32:27Z" finished-at="2018-05-11T01:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:parallelClasses.Chrome@387c703b]" name="afterClass" is-config="true" duration-ms="666" started-at="2018-05-11T01:32:42Z" finished-at="2018-05-11T01:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- parallelClasses.Chrome -->
+    </test> <!-- testParallel -->
+  </suite> <!-- TestSuite -->
+</testng-results>
